@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --color1: #03658C;
+    --color2:#025373;
+    --color3:#dde2e2;
+    --color4:#D91A3D;
+    --color5: #2289b3;
+    --color6: #b2babd;
+    flex-wrap: nowrap;
+}
+
+#caja{
+   width: 1100px;
+   margin: 0 auto;    
+}
+
+#menuprincipal{
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    font-family: "Oswald", sans-serif;   
+    margin-bottom: 5px;
+}
+
+#izi{
+    display: flex;  
+    justify-content: center;
+    margin: 0px 200px 0px 0px;
+    align-items: center;    }
+
+.menuA{   
+    margin: 0px 30px 0px 0px;   }
+
+.menuA a{
+    color: white;
+    text-decoration: none;  }
+
+.tienda{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px 0px 0px    }
+
+.tienda a{
+    color: white;
+    text-decoration: none;  }
+
+.pedido{
+    display: flex;
+    align-items: center;    }
+
+.pedido a{
+    color: white;
+    text-decoration: none;  }
+
+.boton1{
+    background-color: var(--color2);
+    padding: 15px;
+    border-radius: 100px;   }
+
+.boton1 a{
+    color: white;
+    text-decoration: none;  }
+
+.boton1:hover{
+    background-color: black;
+    color: white    }
+
+.boton2{
+    background-color: var(--color5);
+    padding: 15px;
+    border-radius: 100px;   }
+
+.boton2:hover{
+    background-color: white;
+    color: black;   }
+
+.boton2 a{
+    color: black;
+    text-decoration: none  }
+
+
+#pepe {
+    color: black;
+    text-decoration:none
+}
+
+
+#cabecera1{
+    border: 1px solid color #c7e4f0 ;
+    background-color: #c7e4f0;
+    display: flex;
+    padding-left: 150px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+
+#contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+    
+}
+
+.bq li{
+    list-style-type: none;
+    padding: 18.5px;
+    color:var(--color6)   
+}
+
+#t1{
+    text-align: justify; 
+    margin-left: 15px;
+}
+
+#bloque1{
+    width: 20%;
+    border: 3px solid var(--color6); 
+    text-align: left;  
+    font-family: "Oswald", sans-serif; 
+    
+}
+
+
+#bloque2{
+    border: 3px solid var(--color6);
+    font-family: "Oswald", sans-serif; 
+    width: 68%;
+    margin-left: 40px;
+}
+
+#todo2{
+    display: flex;
+}
+
+h2{
+    padding: 30px 0px 0px 0px;
+}
+
+#lineatodo1{
+    padding: 0px 1px 0px 1px;
+    margin: 0px 40px 0px 40px;
+    color: var(--color6)
+}
+
+#todo1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left:  40px;
+    margin-bottom: 10px;
+}
+
+#izquierda{
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+}
+
+#derecha{
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#pepe{
+    margin-left: 22px;
+
+}
+
+.ima{
+    margin: 40px 0px 0px 40px;
+}
+
+
+
+
+
+hr{
+    border: 0.5px solid;
+    color: rgb(182, 178, 178);
+    margin: 10
+}
+
+#menusecu{
+    border: 100;
+}
+
+#menusecundario{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Oswald", sans-serif; 
+    padding: 20px 0px 20px 0px;
+}
+
+.ms{
+    margin:  0px 10px 0px 10px;}
+
+.ms a{
+    color: var(--color2);
+    text-decoration: none;
+}
+
+#pie{
+    background-color: var(--color3);
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    color: var(--color5);
+    margin-top: 10px;
+}
+
+#icono{
+    display: flex;  
+    justify-content: flex-start;
+    margin: 30px 0px 0px 20px;
+    align-items: center;
+}
+
+#ico1{
+    margin: 0px 10px 0px 0px;
+}
+
+#ico1 a{
+    color: var(--color2);
+    text-decoration: none;  }
+
+#ico2 a{
+    color: var(--color2);
+    text-decoration: none;  }
+
+#libro{
+    margin: 30px 10px 0px 20px;
+}
+
+#link{
+    padding: 30px 5px 30px 30px;
+    text-align: justify;
+}
+
